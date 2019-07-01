@@ -24,6 +24,7 @@
     "git-hook": "npm run lint -s && npm run test -s"
   },
   "dependencies": {
+    "@react-native-community/async-storage": "^1.5.0",
     "apisauce": "^1.0.2",
     "format-json": "^1.0.3",
     "identity-obj-proxy": "^3.0.0",
@@ -81,6 +82,7 @@
     "reactotron-react-native": "^2.1.0",
     "reactotron-redux": "^2.1.0",
     "reactotron-redux-saga": "^3.0.0",
+    "remote-redux-devtools": "^0.5.16",
     "snazzy": "^8.0.0",
     "standard": "10.0.2"
   },
