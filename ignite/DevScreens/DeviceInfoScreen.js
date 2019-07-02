@@ -1,6 +1,7 @@
 // An All Components Screen is a great way to dev and quick-test components
 import React from 'react'
-import { View, ScrollView, Text, Image, NetInfo, TouchableOpacity } from 'react-native'
+import { View, ScrollView, Text, Image, TouchableOpacity } from 'react-native'
+import NetInfo from '@react-native-community/netinfo'
 import DeviceInfo from 'react-native-device-info'
 import { Metrics, Images } from './DevTheme'
 import styles from './Styles/DeviceInfoScreenStyles'
@@ -42,6 +43,7 @@ export default class DeviceInfoScreen extends React.Component {
   }
 
   componentDidMount () {
+    // @Todo migrate to the new API
     NetInfo.isConnected.addEventListener('connectionChange', this.setConnected)
     NetInfo.isConnected.fetch().done(this.setConnected)
     NetInfo.addEventListener('connectionChange', this.setConnectionInfo)
