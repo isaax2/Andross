@@ -2185,12 +2185,12 @@ anymatch@^2.0.0:
     micromatch "^3.1.4"
     normalize-path "^2.1.1"
 
-apisauce@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/apisauce/-/apisauce-1.0.2.tgz#3605dbf4f19896618a0199f2cb717546b8971a06"
-  integrity sha512-RwC0X4D20HH8t43J2mLNFv1ZNab+xTMcKyjRsajT0PbqiRXRjPfA9igBZ/f+2NaiIXHtyjLirqXY2SMLsUekTw==
+apisauce@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/apisauce/-/apisauce-1.0.3.tgz#f2989299a5b7a7ea1b2a9ad69539212e5d59f9e2"
+  integrity sha512-kcc4p75KoRVQCCpKgieu4D/om9ixt7m/GX/q/VbOLuwLVf31IDDh9GbncmNA2XqFV7UO9STaqd68X9O2jwaCbQ==
   dependencies:
-    axios "^0.18.0"
+    axios "^0.18.1"
     ramda "^0.25.0"
 
 app-root-dir@^1.0.2:
@@ -2443,7 +2443,7 @@ aws4@^1.8.0:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.8.0.tgz#f0e003d9ca9e7f59c7a508945d7b2ef9a04a542f"
   integrity sha512-ReZxvNHIOv88FlT7rxcXIIC0fPt4KZqZbOlivyWtXLt8ESx84zd3kMC6iK5jVeS2qt+g7ftS7ye4fi06X5rtRQ==
 
-axios@^0.18.0:
+axios@^0.18.1:
   version "0.18.1"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.18.1.tgz#ff3f0de2e7b5d180e757ad98000f1081b87bcea3"
   integrity sha512-0BfJq4NSfQXd+SkFdrvFbG7addhYSBA2mQwISr46pD6E5iqkWg02RAs8vyTT/j0RTnoYmeXauBuSv1qKwR179g==
@@ -10287,10 +10287,10 @@ react-native-vector-icons@6.1.0:
     prop-types "^15.6.2"
     yargs "^8.0.2"
 
-react-native@0.59.3:
-  version "0.59.3"
-  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.59.3.tgz#b984bbe457f63d5515046d32ea5721fd22843548"
-  integrity sha512-dv3AA2rH0L0IccxRkIs4YsriaECy9ttTXrwrgwETXqmE45uVrBFRGePUFnqjcikYkkm6sS0FRxcva088un76JA==
+react-native@0.59.9:
+  version "0.59.9"
+  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.59.9.tgz#c94ee4fa35121720c05235a2dd6cdd2784bf5177"
+  integrity sha512-/+8EgIZwFpYHyyJ7Zav7B6LHNrytwUQ+EKGT/QV7HSrgpf2Y5NZNeUYUHKiVKLYpBip1G32/LcAECQj37YRwGQ==
   dependencies:
     "@babel/runtime" "^7.0.0"
     "@react-native-community/cli" "^1.2.1"
@@ -10350,10 +10350,10 @@ react-navigation-drawer@~1.2.1:
   dependencies:
     react-native-tab-view "^1.2.0"
 
-react-navigation-redux-helpers@^2.0.6:
-  version "2.0.9"
-  resolved "https://registry.yarnpkg.com/react-navigation-redux-helpers/-/react-navigation-redux-helpers-2.0.9.tgz#244e7ebbc43481602b1e7948a491b34a312dca06"
-  integrity sha512-V1eyQ22T1znZeaou38f/JBp5DUV5X2T4hVVSlsjh8dk2unkWhaugzvrgFMF80Mzg1gH4rVE1yADyI9hzuwbbSw==
+react-navigation-redux-helpers@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/react-navigation-redux-helpers/-/react-navigation-redux-helpers-3.0.2.tgz#612e1d5b1378ba0c17b6a2d8ec9a01cc698a3a16"
+  integrity sha512-+z7/eBGBpws/W3ffu7ayEl1YFMAbXO3Sgul3KIDyESI1BbmfSvKD2aRMEfE7AlO+58fJJsqWUMhNw+VACAdHjw==
   dependencies:
     invariant "^2.2.2"
 
